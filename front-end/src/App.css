@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.te {
+  width: 100%;
+  height: 100vh;
+  background-color: #FFEBB2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  width: 80%;
+  height: 80%;
+  background-color: #f7f7f7;
+  overflow-y: scroll;
+}
+.message {
+  width: 100%;
+  height: auto;
+}
+
+.side1 {
+  width: 100%;
+}
+
+.side1 .tex {
+  margin: 7px 2%;
+  background-color: #eaebff;
+  border-radius: 10px;
+  width: 40%;
+  height: auto;
+  padding: 10px;
+}
+
+.side2 {
+  width: 100%;
+
+  display: flex;
+  justify-content: end;
+}
+.side2 .tex {
+  background-color: #ffffff;
+  margin: 7px 2%;
+  border-radius: 10px;
+  width: 40%;
+  height: auto;
+  padding: 10px;
+}
+
+.side1 .tex span,
+.side2 .tex span {
+  color: #6e6e6e;
+}
+
+
+
+
+.inp{
+  width: 50%;
+  height: 10vh;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.send-btn{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.in{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.in input{
+  width: 90%;
+  height: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  padding-left: 20px;
+}
+.btn{
+  width: 30%;
+  height: 100%;
+}
+.btn button{
+  width: 90%;
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #d8d6d6;
+  color: black;
+  border-radius: 5px;
+}
